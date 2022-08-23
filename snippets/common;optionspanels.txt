@@ -1,0 +1,4 @@
+ZO_OptionsPanel_Video_InitializeResolution(control)
+ZO_OptionsPanel_Video_SetCustomScale(self, formattedValueString)
+ZO_OptionsPanel_Video_CustomScale_OnShow(control)
+ZO_OptionsPanel_Video_InitializeScaleControl(self)

@@ -1,0 +1,3 @@
+ZO_Gamepad_PlayerInventoryFooterFragment:New(...)
+ZO_Gamepad_PlayerInventoryFooterFragment:Initialize(...)
+ZO_Gamepad_PlayerInventoryFooterFragment:CapacityUpdate(forceUpdate)

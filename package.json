@@ -1,5 +1,5 @@
 {
-  "name": "Elder Scrolls Online LUA",
+  "name": "vsc-eso",
   "description": "Elder Scrolls Online (ESO) LUA Support For Visual Studio Code",
   "version": "1.0.0",
   "publisher": "Origami",
@@ -15,15 +15,19 @@
     "snippets": [
       {
         "language": "lua",
-        "path": "./snippets/app_globals.json"
+        "path": "./snippets/app;globals.json"
       },
       {
         "language": "lua",
-        "path": "./snippets/app_loadingscreen.json"
+        "path": "./snippets/app;loadingscreen.json"
       },
       {
         "language": "lua",
-        "path": "./snippets/common_console.json"
+        "path": "./snippets/common;console.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;gamepad.json"
       }
     ]
   },

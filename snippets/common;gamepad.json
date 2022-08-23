@@ -1,0 +1,1570 @@
+{
+    "ZO_ControllerDisconnect_Initialize": {
+        "prefix": "ZO_ControllerDisconnect_Initialize",
+        "body": [
+            "ZO_ControllerDisconnect_Initialize(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_ControllerDisconnect_ShowPopup": {
+        "prefix": "ZO_ControllerDisconnect_ShowPopup",
+        "body": [
+            "ZO_ControllerDisconnect_ShowPopup()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_ControllerDisconnect_DismissPopup": {
+        "prefix": "ZO_ControllerDisconnect_DismissPopup",
+        "body": [
+            "ZO_ControllerDisconnect_DismissPopup()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadQuadrants_SetBackgroundArrowCenterOffsetY": {
+        "prefix": "ZO_GamepadQuadrants_SetBackgroundArrowCenterOffsetY",
+        "body": [
+            "ZO_GamepadQuadrants_SetBackgroundArrowCenterOffsetY(${1:background}, ${2:arrowSide}, ${3:offset})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadQuadrants_BackgroundTemplate_Initialize": {
+        "prefix": "ZO_GamepadQuadrants_BackgroundTemplate_Initialize",
+        "body": [
+            "ZO_GamepadQuadrants_BackgroundTemplate_Initialize(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid_BackgroundTextureBase_OnUpdate": {
+        "prefix": "ZO_GamepadGrid_BackgroundTextureBase_OnUpdate",
+        "body": [
+            "ZO_GamepadGrid_BackgroundTextureBase_OnUpdate(${1:self}, ${2:timeS})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "GenericFooter:New": {
+        "prefix": "GenericFooter:New",
+        "body": [
+            "GenericFooter:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "GenericFooter:Initialize": {
+        "prefix": "GenericFooter:Initialize",
+        "body": [
+            "GenericFooter:Initialize(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "GenericFooter:Refresh": {
+        "prefix": "GenericFooter:Refresh",
+        "body": [
+            "GenericFooter:Refresh(${1:data})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GenericFooter_Gamepad_OnInitialized": {
+        "prefix": "ZO_GenericFooter_Gamepad_OnInitialized",
+        "body": [
+            "ZO_GenericFooter_Gamepad_OnInitialized(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GenericFooter_Gamepad_OnHidden": {
+        "prefix": "ZO_GenericFooter_Gamepad_OnHidden",
+        "body": [
+            "ZO_GenericFooter_Gamepad_OnHidden(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "Anchor:New": {
+        "prefix": "Anchor:New",
+        "body": [
+            "Anchor:New(${1:pointOnMe}, ${2:targetId}, ${3:pointOnTarget}, ${4:offsetX}, ${5:offsetY})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_Initialize": {
+        "prefix": "ZO_GamepadGenericHeader_Initialize",
+        "body": [
+            "ZO_GamepadGenericHeader_Initialize(${1:control}, ${2:createTabBar}, ${3:layout})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_GetChildControl": {
+        "prefix": "ZO_GamepadGenericHeader_GetChildControl",
+        "body": [
+            "ZO_GamepadGenericHeader_GetChildControl(${1:control}, ${2:controlId})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_SetDataLayout": {
+        "prefix": "ZO_GamepadGenericHeader_SetDataLayout",
+        "body": [
+            "ZO_GamepadGenericHeader_SetDataLayout(${1:control}, ${2:layout})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_RefreshData": {
+        "prefix": "ZO_GamepadGenericHeader_RefreshData",
+        "body": [
+            "ZO_GamepadGenericHeader_RefreshData(${1:control}, ${2:data})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_Refresh": {
+        "prefix": "ZO_GamepadGenericHeader_Refresh",
+        "body": [
+            "ZO_GamepadGenericHeader_Refresh(${1:control}, ${2:data}, ${3:blockTabBarCallbacks})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_Activate": {
+        "prefix": "ZO_GamepadGenericHeader_Activate",
+        "body": [
+            "ZO_GamepadGenericHeader_Activate(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_Deactivate": {
+        "prefix": "ZO_GamepadGenericHeader_Deactivate",
+        "body": [
+            "ZO_GamepadGenericHeader_Deactivate(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_SetActiveTabIndex": {
+        "prefix": "ZO_GamepadGenericHeader_SetActiveTabIndex",
+        "body": [
+            "ZO_GamepadGenericHeader_SetActiveTabIndex(${1:control}, ${2:tabIndex}, ${3:allowEvenIfDisabled})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_SetTabBarPlaySoundFunction": {
+        "prefix": "ZO_GamepadGenericHeader_SetTabBarPlaySoundFunction",
+        "body": [
+            "ZO_GamepadGenericHeader_SetTabBarPlaySoundFunction(${1:control}, ${2:fn})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGenericHeader_SetPipsEnabled": {
+        "prefix": "ZO_GamepadGenericHeader_SetPipsEnabled",
+        "body": [
+            "ZO_GamepadGenericHeader_SetPipsEnabled(${1:control}, ${2:enabled})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:New": {
+        "prefix": "ScreenAdjust:New",
+        "body": [
+            "ScreenAdjust:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:Initialize": {
+        "prefix": "ScreenAdjust:Initialize",
+        "body": [
+            "ScreenAdjust:Initialize(${1:control}, ${2:sceneName})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:InitializeKeybindButtons": {
+        "prefix": "ScreenAdjust:InitializeKeybindButtons",
+        "body": [
+            "ScreenAdjust:InitializeKeybindButtons()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:RefreshGuiDimensions": {
+        "prefix": "ScreenAdjust:RefreshGuiDimensions",
+        "body": [
+            "ScreenAdjust:RefreshGuiDimensions()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:InitializeSize": {
+        "prefix": "ScreenAdjust:InitializeSize",
+        "body": [
+            "ScreenAdjust:InitializeSize(${1:storeInitialValues})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:SetSize": {
+        "prefix": "ScreenAdjust:SetSize",
+        "body": [
+            "ScreenAdjust:SetSize(${1:width}, ${2:height})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:Commit": {
+        "prefix": "ScreenAdjust:Commit",
+        "body": [
+            "ScreenAdjust:Commit()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:RevertChanges": {
+        "prefix": "ScreenAdjust:RevertChanges",
+        "body": [
+            "ScreenAdjust:RevertChanges()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:OnSave": {
+        "prefix": "ScreenAdjust:OnSave",
+        "body": [
+            "ScreenAdjust:OnSave()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:OnCancel": {
+        "prefix": "ScreenAdjust:OnCancel",
+        "body": [
+            "ScreenAdjust:OnCancel()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ScreenAdjust:UpdateDirectionalInput": {
+        "prefix": "ScreenAdjust:UpdateDirectionalInput",
+        "body": [
+            "ScreenAdjust:UpdateDirectionalInput()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_ScreenAdjust_Handle_OnSave": {
+        "prefix": "ZO_ScreenAdjust_Handle_OnSave",
+        "body": [
+            "ZO_ScreenAdjust_Handle_OnSave()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_ScreenAdjust_Handle_OnCancel": {
+        "prefix": "ZO_ScreenAdjust_Handle_OnCancel",
+        "body": [
+            "ZO_ScreenAdjust_Handle_OnCancel()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_ScreenAdjust_OnInitialized": {
+        "prefix": "ZO_ScreenAdjust_OnInitialized",
+        "body": [
+            "ZO_ScreenAdjust_OnInitialized(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_ScreenAdjustIntro_OnInitialized": {
+        "prefix": "ZO_ScreenAdjustIntro_OnInitialized",
+        "body": [
+            "ZO_ScreenAdjustIntro_OnInitialized(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:New": {
+        "prefix": "ZO_GamepadEntryData:New",
+        "body": [
+            "ZO_GamepadEntryData:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:Initialize": {
+        "prefix": "ZO_GamepadEntryData:Initialize",
+        "body": [
+            "ZO_GamepadEntryData:Initialize(${1:text}, ${2:icon}, ${3:selectedIcon}, ${4:highlight}, {$5:isNew})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeInventoryVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeInventoryVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeInventoryVisualData(${1:itemData})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeStoreVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeStoreVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeStoreVisualData(${1:itemData})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeTradingHouseVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeTradingHouseVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeTradingHouseVisualData(${1:itemData})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeItemImprovementVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeItemImprovementVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeItemImprovementVisualData(${1:bag}, ${2:index}, ${3:stackCount}, ${4:quality})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeCollectibleVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeCollectibleVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeCollectibleVisualData(${1:itemData})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:AddSubLabels": {
+        "prefix": "ZO_GamepadEntryData:AddSubLabels",
+        "body": [
+            "ZO_GamepadEntryData:AddSubLabels(${1:subLabels})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeImprovementKitVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeImprovementKitVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeImprovementKitVisualData(${1:bag}, ${2:index}, ${3:stackCount}, ${4:quality}, ${5:subLabels})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeCraftingInventoryVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeCraftingInventoryVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeCraftingInventoryVisualData(${1:itemInfo}, ${2:)"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:InitializeLootVisualData": {
+        "prefix": "ZO_GamepadEntryData:InitializeLootVisualData",
+        "body": [
+            "ZO_GamepadEntryData:InitializeLootVisualData(${1:lootId}, ${2:count}, ${3:quality}, ${4:value}, ${5:isQuest}, ${6:isStolen})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetHeader": {
+        "prefix": "ZO_GamepadEntryData:SetHeader",
+        "body": [
+            "ZO_GamepadEntryData:SetHeader(${1:header})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetNew": {
+        "prefix": "ZO_GamepadEntryData:SetNew",
+        "body": [
+            "ZO_GamepadEntryData:SetNew(${1:isNew})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetText": {
+        "prefix": "ZO_GamepadEntryData:SetText",
+        "body": [
+            "ZO_GamepadEntryData:SetText(${1:text})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetFontScaleOnSelection": {
+        "prefix": "ZO_GamepadEntryData:SetFontScaleOnSelection",
+        "body": [
+            "ZO_GamepadEntryData:SetFontScaleOnSelection(${1:active})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetAlphaChangeOnSelection": {
+        "prefix": "ZO_GamepadEntryData:SetAlphaChangeOnSelection",
+        "body": [
+            "ZO_GamepadEntryData:SetAlphaChangeOnSelection(${1:active})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetMaxIconAlpha": {
+        "prefix": "ZO_GamepadEntryData:SetMaxIconAlpha",
+        "body": [
+            "ZO_GamepadEntryData:SetMaxIconAlpha(${1:alpha})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetDataSource": {
+        "prefix": "ZO_GamepadEntryData:SetDataSource",
+        "body": [
+            "ZO_GamepadEntryData:SetDataSource(${1:source})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetColorsBasedOnQuality": {
+        "prefix": "ZO_GamepadEntryData:GetColorsBasedOnQuality",
+        "body": [
+            "ZO_GamepadEntryData:GetColorsBasedOnQuality(${1:quality})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetCooldown": {
+        "prefix": "ZO_GamepadEntryData:SetCooldown",
+        "body": [
+            "ZO_GamepadEntryData:SetCooldown(${1:remainingMs}, ${2:durationMs})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetCooldownDurationMs": {
+        "prefix": "ZO_GamepadEntryData:GetCooldownDurationMs",
+        "body": [
+            "ZO_GamepadEntryData:GetCooldownDurationMs()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetCooldownTimeRemainingMs": {
+        "prefix": "ZO_GamepadEntryData:GetCooldownTimeRemainingMs",
+        "body": [
+            "ZO_GamepadEntryData:GetCooldownTimeRemainingMs()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:IsOnCooldown": {
+        "prefix": "ZO_GamepadEntryData:IsOnCooldown",
+        "body": [
+            "ZO_GamepadEntryData:IsOnCooldown()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:AddIconSubtype": {
+        "prefix": "ZO_GamepadEntryData:AddIconSubtype",
+        "body": [
+            "ZO_GamepadEntryData:AddIconSubtype(${1:subtypeName}, ${2:texture})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetNumIcons": {
+        "prefix": "ZO_GamepadEntryData:GetNumIcons",
+        "body": [
+            "ZO_GamepadEntryData:GetNumIcons()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetSubtypeIcon": {
+        "prefix": "ZO_GamepadEntryData:GetSubtypeIcon",
+        "body": [
+            "ZO_GamepadEntryData:GetSubtypeIcon(${1:subtypeName}, ${2:index})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetIcon": {
+        "prefix": "ZO_GamepadEntryData:GetIcon",
+        "body": [
+            "ZO_GamepadEntryData:GetIcon(${1:index}, ${2:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:AddIcon": {
+        "prefix": "ZO_GamepadEntryData:AddIcon",
+        "body": [
+            "ZO_GamepadEntryData:AddIcon(${1:normalTexture}, ${2:selectedTexture})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:ClearIcons": {
+        "prefix": "ZO_GamepadEntryData:ClearIcons",
+        "body": [
+            "ZO_GamepadEntryData:ClearIcons()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetNameColor": {
+        "prefix": "ZO_GamepadEntryData:GetNameColor",
+        "body": [
+            "ZO_GamepadEntryData:GetNameColor(${1:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetIconTintOnSelection": {
+        "prefix": "ZO_GamepadEntryData:SetIconTintOnSelection",
+        "body": [
+            "ZO_GamepadEntryData:SetIconTintOnSelection(${1:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetSubLabelColor": {
+        "prefix": "ZO_GamepadEntryData:GetSubLabelColor",
+        "body": [
+            "ZO_GamepadEntryData:GetSubLabelColor(${1:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetNameColors": {
+        "prefix": "ZO_GamepadEntryData:SetNameColors",
+        "body": [
+            "ZO_GamepadEntryData:SetNameColors(${1:selectedColor}, ${2:unselectedColor})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetSubLabelColors": {
+        "prefix": "ZO_GamepadEntryData:SetSubLabelColors",
+        "body": [
+            "ZO_GamepadEntryData:SetSubLabelColors(${1:selectedColor}, ${2:unselectedColor})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetIconTint": {
+        "prefix": "ZO_GamepadEntryData:SetIconTint",
+        "body": [
+            "ZO_GamepadEntryData:SetIconTint(${1:selectedColor}, ${2:unselectedColor})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetIconDesaturation": {
+        "prefix": "ZO_GamepadEntryData:SetIconDesaturation",
+        "body": [
+            "ZO_GamepadEntryData:SetIconDesaturation(${1:desaturation})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:AddSubLabel": {
+        "prefix": "ZO_GamepadEntryData:AddSubLabel",
+        "body": [
+            "ZO_GamepadEntryData:AddSubLabel(${1:text})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetShowUnselectedSublabels": {
+        "prefix": "ZO_GamepadEntryData:SetShowUnselectedSublabels",
+        "body": [
+            "ZO_GamepadEntryData:SetShowUnselectedSublabels(${1:showUnselectedSublabels})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetLocked": {
+        "prefix": "ZO_GamepadEntryData:SetLocked",
+        "body": [
+            "ZO_GamepadEntryData:SetLocked(${1:isLocked})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetSelected": {
+        "prefix": "ZO_GamepadEntryData:SetSelected",
+        "body": [
+            "ZO_GamepadEntryData:SetSelected(${1:isSelected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetChannelActive": {
+        "prefix": "ZO_GamepadEntryData:SetChannelActive",
+        "body": [
+            "ZO_GamepadEntryData:SetChannelActive(${1:isChannelActive})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetEnabled": {
+        "prefix": "ZO_GamepadEntryData:SetEnabled",
+        "body": [
+            "ZO_GamepadEntryData:SetEnabled(${1:isEnabled})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:IsEnabled": {
+        "prefix": "ZO_GamepadEntryData:IsEnabled",
+        "body": [
+            "ZO_GamepadEntryData:IsEnabled()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetDisabledNameColors": {
+        "prefix": "ZO_GamepadEntryData:SetDisabledNameColors",
+        "body": [
+            "ZO_GamepadEntryData:SetDisabledNameColors(${1:selectedColor}, ${2:unselectedColor})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetDisabledIconTint": {
+        "prefix": "ZO_GamepadEntryData:SetDisabledIconTint",
+        "body": [
+            "ZO_GamepadEntryData:SetDisabledIconTint(${1:selectedColor}, ${2:unselectedColor})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:GetNameDisabledColor": {
+        "prefix": "ZO_GamepadEntryData:GetNameDisabledColor",
+        "body": [
+            "ZO_GamepadEntryData:GetNameDisabledColor(${1:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetIconDisabledTintOnSelection": {
+        "prefix": "ZO_GamepadEntryData:SetIconDisabledTintOnSelection",
+        "body": [
+            "ZO_GamepadEntryData:SetIconDisabledTintOnSelection(${1:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetModifyTextType": {
+        "prefix": "ZO_GamepadEntryData:SetModifyTextType",
+        "body": [
+            "ZO_GamepadEntryData:SetModifyTextType(${1:modifyTextType})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadEntryData:SetIsHiddenByWardrobe": {
+        "prefix": "ZO_GamepadEntryData:SetIsHiddenByWardrobe",
+        "body": [
+            "ZO_GamepadEntryData:SetIsHiddenByWardrobe(${1:isHidden})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:New": {
+        "prefix": "ZO_GamepadGrid:New",
+        "body": [
+            "ZO_GamepadGrid:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:Initialize": {
+        "prefix": "ZO_GamepadGrid:Initialize",
+        "body": [
+            "ZO_GamepadGrid:Initialize(${1:control}, ${2:rowMajor})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:GetIsRowMajor": {
+        "prefix": "ZO_GamepadGrid:GetIsRowMajor",
+        "body": [
+            "ZO_GamepadGrid:GetIsRowMajor()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:GetGridItems": {
+        "prefix": "ZO_GamepadGrid:GetGridItems",
+        "body": [
+            "ZO_GamepadGrid:GetGridItems()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:RefreshGridHighlight": {
+        "prefix": "ZO_GamepadGrid:RefreshGridHighlight",
+        "body": [
+            "ZO_GamepadGrid:RefreshGridHighlight()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:ClampToGrid": {
+        "prefix": "ZO_GamepadGrid:ClampToGrid",
+        "body": [
+            "ZO_GamepadGrid:ClampToGrid(${1:x}, ${2:y})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:GetGridPosition": {
+        "prefix": "ZO_GamepadGrid:GetGridPosition",
+        "body": [
+            "ZO_GamepadGrid:GetGridPosition()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:ResetGridPosition": {
+        "prefix": "ZO_GamepadGrid:ResetGridPosition",
+        "body": [
+            "ZO_GamepadGrid:ResetGridPosition()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:UpdateDirectionalInput": {
+        "prefix": "ZO_GamepadGrid:UpdateDirectionalInput",
+        "body": [
+            "ZO_GamepadGrid:UpdateDirectionalInput()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGrid:SetDirectionalMovementSound": {
+        "prefix": "ZO_GamepadGrid:SetDirectionalMovementSound",
+        "body": [
+            "ZO_GamepadGrid:SetDirectionalMovementSound(${1:sound})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:New": {
+        "prefix": "ZO_GamepadPagedGrid:New",
+        "body": [
+            "ZO_GamepadPagedGrid:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:Initialize": {
+        "prefix": "ZO_GamepadPagedGrid:Initialize",
+        "body": [
+            "ZO_GamepadPagedGrid:Initialize(${1:control}, ${2:rowMajor}, ${3:footerControl})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:SetPageNumberFont": {
+        "prefix": "ZO_GamepadPagedGrid:SetPageNumberFont",
+        "body": [
+            "ZO_GamepadPagedGrid:SetPageNumberFont(${1:font})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:SetPageInfo": {
+        "prefix": "ZO_GamepadPagedGrid:SetPageInfo",
+        "body": [
+            "ZO_GamepadPagedGrid:SetPageInfo(${1:currentPage}, ${2:numPages})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:UpdateForPageChange": {
+        "prefix": "ZO_GamepadPagedGrid:UpdateForPageChange",
+        "body": [
+            "ZO_GamepadPagedGrid:UpdateForPageChange()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:SetPageChangedCallback": {
+        "prefix": "ZO_GamepadPagedGrid:SetPageChangedCallback",
+        "body": [
+            "ZO_GamepadPagedGrid:SetPageChangedCallback(${1:callback})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:GetCurrentPage": {
+        "prefix": "ZO_GamepadPagedGrid:GetCurrentPage",
+        "body": [
+            "ZO_GamepadPagedGrid:GetCurrentPage()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:GetNumPages": {
+        "prefix": "ZO_GamepadPagedGrid:GetNumPages",
+        "body": [
+            "ZO_GamepadPagedGrid:GetNumPages()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:NextPage": {
+        "prefix": "ZO_GamepadPagedGrid:NextPage",
+        "body": [
+            "ZO_GamepadPagedGrid:NextPage()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:PreviousPage": {
+        "prefix": "ZO_GamepadPagedGrid:PreviousPage",
+        "body": [
+            "ZO_GamepadPagedGrid:PreviousPage()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:InitializeKeybindStripDescriptors": {
+        "prefix": "ZO_GamepadPagedGrid:InitializeKeybindStripDescriptors",
+        "body": [
+            "ZO_GamepadPagedGrid:InitializeKeybindStripDescriptors()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:Activate": {
+        "prefix": "ZO_GamepadPagedGrid:Activate",
+        "body": [
+            "ZO_GamepadPagedGrid:Activate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:Deactivate": {
+        "prefix": "ZO_GamepadPagedGrid:Deactivate",
+        "body": [
+            "ZO_GamepadPagedGrid:Deactivate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPagedGrid:RefreshGrid": {
+        "prefix": "ZO_GamepadPagedGrid:RefreshGrid",
+        "body": [
+            "ZO_GamepadPagedGrid:RefreshGrid()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_IconSelectorPlaySound": {
+        "prefix": "ZO_IconSelectorPlaySound",
+        "body": [
+            "ZO_IconSelectorPlaySound(${1:type})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:New": {
+        "prefix": "ZO_GamepadIconSelector:New",
+        "body": [
+            "ZO_GamepadIconSelector:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:Initialize": {
+        "prefix": "ZO_GamepadIconSelector:Initialize",
+        "body": [
+            "ZO_GamepadIconSelector:Initialize(${1:control}, ${2:settings})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:ForAllIconControls": {
+        "prefix": "ZO_GamepadIconSelector:ForAllIconControls",
+        "body": [
+            "ZO_GamepadIconSelector:ForAllIconControls(${1:func}, ${2:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:ModifyHighlightIndex": {
+        "prefix": "ZO_GamepadIconSelector:ModifyHighlightIndex",
+        "body": [
+            "ZO_GamepadIconSelector:ModifyHighlightIndex(${1:rowDiff}, ${2:colDiff})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:HighlightIconControl": {
+        "prefix": "ZO_GamepadIconSelector:HighlightIconControl",
+        "body": [
+            "ZO_GamepadIconSelector:HighlightIconControl(${1:index})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:GetHighlightIndex": {
+        "prefix": "ZO_GamepadIconSelector:GetHighlightIndex",
+        "body": [
+            "ZO_GamepadIconSelector:GetHighlightIndex()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector_RefreshIconSelectionIndicator": {
+        "prefix": "ZO_GamepadIconSelector_RefreshIconSelectionIndicator",
+        "body": [
+            "ZO_GamepadIconSelector_RefreshIconSelectionIndicator(${1:control}, ${2:index}, ${3:selectedIconIndex})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:Activate": {
+        "prefix": "ZO_GamepadIconSelector:Activate",
+        "body": [
+            "ZO_GamepadIconSelector:Activate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:Deactivate": {
+        "prefix": "ZO_GamepadIconSelector:Deactivate",
+        "body": [
+            "ZO_GamepadIconSelector:Deactivate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:SetDirectionalInputEnabled": {
+        "prefix": "ZO_GamepadIconSelector:SetDirectionalInputEnabled",
+        "body": [
+            "ZO_GamepadIconSelector:SetDirectionalInputEnabled(${1:enabled})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:UpdateDirectionalInput": {
+        "prefix": "ZO_GamepadIconSelector:UpdateDirectionalInput",
+        "body": [
+            "ZO_GamepadIconSelector:UpdateDirectionalInput()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:MoveUp": {
+        "prefix": "ZO_GamepadIconSelector:MoveUp",
+        "body": [
+            "ZO_GamepadIconSelector:MoveUp()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:MoveDown": {
+        "prefix": "ZO_GamepadIconSelector:MoveDown",
+        "body": [
+            "ZO_GamepadIconSelector:MoveDown()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:MoveLeft": {
+        "prefix": "ZO_GamepadIconSelector:MoveLeft",
+        "body": [
+            "ZO_GamepadIconSelector:MoveLeft()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:MoveRight": {
+        "prefix": "ZO_GamepadIconSelector:MoveRight",
+        "body": [
+            "ZO_GamepadIconSelector:MoveRight()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadIconSelector:SetPlaySoundFunction": {
+        "prefix": "ZO_GamepadIconSelector:SetPlaySoundFunction",
+        "body": [
+            "ZO_GamepadIconSelector:SetPlaySoundFunction(${1:fn})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_LoadingIcon_Gamepad_Initialize": {
+        "prefix": "ZO_LoadingIcon_Gamepad_Initialize",
+        "body": [
+            "ZO_LoadingIcon_Gamepad_Initialize(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_LoadingIcon_Gamepad_OnUpdate": {
+        "prefix": "ZO_LoadingIcon_Gamepad_OnUpdate",
+        "body": [
+            "ZO_LoadingIcon_Gamepad_OnUpdate(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:New": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:New",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:Initialize": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:Initialize",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:Initialize(${1:control}, ${2:createTabBar}, ${3:activateOnShow}, ${4:scene})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:SetListsUseTriggerKeybinds": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:SetListsUseTriggerKeybinds",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:SetListsUseTriggerKeybinds(${1:addListTriggerKeybinds}, ${2:optionalHeaderComparator})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:GetListFragment": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:GetListFragment",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:GetListFragment(${1:list})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:GetHeaderFragment": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:GetHeaderFragment",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:GetHeaderFragment()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:ActivateCurrentList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:ActivateCurrentList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:ActivateCurrentList()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:DeactivateCurrentList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:DeactivateCurrentList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:DeactivateCurrentList()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:EnableCurrentList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:EnableCurrentList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:EnableCurrentList()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:DisableCurrentList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:DisableCurrentList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:DisableCurrentList()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:SetCurrentList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:SetCurrentList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:SetCurrentList(${1:list})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:GetCurrentList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:GetCurrentList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:GetCurrentList()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:IsCurrentList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:IsCurrentList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:IsCurrentList(${1:list})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:TryAddListTriggers": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:TryAddListTriggers",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:TryAddListTriggers()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:TryRemoveListTriggers": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:TryRemoveListTriggers",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:TryRemoveListTriggers()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:AddList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:AddList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:AddList(${1:name}, ${2:callbackParam}, ${3:listClass}, ${4:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:GetMainList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:GetMainList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:GetMainList()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:GetList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:GetList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:GetList(${1:name})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:CreateListFragment": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:CreateListFragment",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:CreateListFragment(${1:name}, ${2:hideControl})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:SetScene": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:SetScene",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:SetScene(${1:scene})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnStateChanged": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnStateChanged",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnStateChanged(${1:oldState}, ${2:newState})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:Activate": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:Activate",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:Activate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:Deactivate": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:Deactivate",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:Deactivate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:RefreshKeybinds": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:RefreshKeybinds",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:RefreshKeybinds()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnTabBarCategoryChanged": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnTabBarCategoryChanged",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnTabBarCategoryChanged(${1:selectedData})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:SetupList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:SetupList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:SetupList(${1:list})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:PerformUpdate": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:PerformUpdate",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:PerformUpdate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:InitializeKeybindStripDescriptors": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:InitializeKeybindStripDescriptors",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:InitializeKeybindStripDescriptors()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnSelectionChanged": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnSelectionChanged",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnSelectionChanged(${1:list}, ${2:selectedData}, ${3:oldSelectedData})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnTargetChanged": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnTargetChanged",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnTargetChanged(${1:list}, ${2:targetData}, ${3:oldTargetData}, ${4:reachedTarget}, ${5:targetSelectedIndex})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:SetUpdateCooldown": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:SetUpdateCooldown",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:SetUpdateCooldown(${1:updateCooldownMS})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:CheckUpdateIfOffCooldown": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:CheckUpdateIfOffCooldown",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:CheckUpdateIfOffCooldown(${1:timeMS})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:Update": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:Update",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:Update()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:PerformDeferredInitialize": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:PerformDeferredInitialize",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:PerformDeferredInitialize()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnDeferredInitialize": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnDeferredInitialize",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnDeferredInitialize()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnShowing": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnShowing",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnShowing()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnShow": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnShow",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnShow()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnHiding": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnHiding",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnHiding()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:OnHide": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:OnHide",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:OnHide()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_Gamepad_ParametricList_Screen:CreateAndSetupList": {
+        "prefix": "ZO_Gamepad_ParametricList_Screen:CreateAndSetupList",
+        "body": [
+            "ZO_Gamepad_ParametricList_Screen:CreateAndSetupList(${1:control}, ${2:callbackParam}, ${3:listClass}, ${4:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "UpdateCooldownManager:New": {
+        "prefix": "UpdateCooldownManager:New",
+        "body": [
+            "UpdateCooldownManager:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "UpdateCooldownManager:Initialize": {
+        "prefix": "UpdateCooldownManager:Initialize",
+        "body": [
+            "UpdateCooldownManager:Initialize()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "UpdateCooldownManager:Add": {
+        "prefix": "UpdateCooldownManager:Add",
+        "body": [
+            "UpdateCooldownManager:Add(${1:screen})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "UpdateCooldownManager:Remove": {
+        "prefix": "UpdateCooldownManager:Remove",
+        "body": [
+            "UpdateCooldownManager:Remove(${1:screen})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "UpdateCooldownManager:Update": {
+        "prefix": "UpdateCooldownManager:Update",
+        "body": [
+            "UpdateCooldownManager:Update(${1:timeMS})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollList:New": {
+        "prefix": "ZO_GamepadVerticalParametricScrollList:New",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollList:New(${1:...})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollList:Initialize": {
+        "prefix": "ZO_GamepadVerticalParametricScrollList:Initialize",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollList:Initialize(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalItemParametricScrollList:New": {
+        "prefix": "ZO_GamepadVerticalItemParametricScrollList:New",
+        "body": [
+            "ZO_GamepadVerticalItemParametricScrollList:New(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadHorizontalParametricScrollList:New": {
+        "prefix": "ZO_GamepadHorizontalParametricScrollList:New",
+        "body": [
+            "ZO_GamepadHorizontalParametricScrollList:New(${1:control}, ${2:onActivatedChangedFunction}, ${3:onCommitWithItemsFunction}, ${4:onClearedFunction})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:New": {
+        "prefix": "ZO_GamepadTabBarScrollList:New",
+        "body": [
+            "ZO_GamepadTabBarScrollList:New(${1:control}, ${2:leftIcon}, ${3:rightIcon}, ${4:onActivatedChangedFunction}, ${5:onCommitWithItemsFunction}, ${6:onClearedFunction})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:Activate": {
+        "prefix": "ZO_GamepadTabBarScrollList:Activate",
+        "body": [
+            "ZO_GamepadTabBarScrollList:Activate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:Deactivate": {
+        "prefix": "ZO_GamepadTabBarScrollList:Deactivate",
+        "body": [
+            "ZO_GamepadTabBarScrollList:Deactivate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:InitializeKeybindStripDescriptors": {
+        "prefix": "ZO_GamepadTabBarScrollList:InitializeKeybindStripDescriptors",
+        "body": [
+            "ZO_GamepadTabBarScrollList:InitializeKeybindStripDescriptors()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:Commit": {
+        "prefix": "ZO_GamepadTabBarScrollList:Commit",
+        "body": [
+            "ZO_GamepadTabBarScrollList:Commit(${1:dontReselect})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:SetPipsEnabled": {
+        "prefix": "ZO_GamepadTabBarScrollList:SetPipsEnabled",
+        "body": [
+            "ZO_GamepadTabBarScrollList:SetPipsEnabled(${1:enabled}, ${2:divider})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:RefreshPips": {
+        "prefix": "ZO_GamepadTabBarScrollList:RefreshPips",
+        "body": [
+            "ZO_GamepadTabBarScrollList:RefreshPips()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:SetSelectedIndex": {
+        "prefix": "ZO_GamepadTabBarScrollList:SetSelectedIndex",
+        "body": [
+            "ZO_GamepadTabBarScrollList:SetSelectedIndex(${1:selectedIndex}, ${2:allowEvenIfDisabled}, ${3:forceAnimation})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:MovePrevious": {
+        "prefix": "ZO_GamepadTabBarScrollList:MovePrevious",
+        "body": [
+            "ZO_GamepadTabBarScrollList:MovePrevious(${1:allowWrapping}, ${2:suppressFailSound})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarScrollList:MoveNext": {
+        "prefix": "ZO_GamepadTabBarScrollList:MoveNext",
+        "body": [
+            "ZO_GamepadTabBarScrollList:MoveNext(${1:allowWrapping}, ${2:suppressFailSound})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollListSubList:New": {
+        "prefix": "ZO_GamepadVerticalParametricScrollListSubList:New",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollListSubList:New(${1:control}, ${2:parentList}, ${3:parentKeybinds}, ${4:onDataChosen})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollListSubList:Initialize": {
+        "prefix": "ZO_GamepadVerticalParametricScrollListSubList:Initialize",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollListSubList:Initialize(${1:control}, ${2:parentList}, ${3:parentKeybinds}, ${4:onDataChosen})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollListSubList:Commit": {
+        "prefix": "ZO_GamepadVerticalParametricScrollListSubList:Commit",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollListSubList:Commit(${1:dontReselect})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollListSubList:CancelSelection": {
+        "prefix": "ZO_GamepadVerticalParametricScrollListSubList:CancelSelection",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollListSubList:CancelSelection()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollListSubList:InitializeKeybindStrip": {
+        "prefix": "ZO_GamepadVerticalParametricScrollListSubList:InitializeKeybindStrip",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollListSubList:InitializeKeybindStrip()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollListSubList:Activate": {
+        "prefix": "ZO_GamepadVerticalParametricScrollListSubList:Activate",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollListSubList:Activate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadVerticalParametricScrollListSubList:Deactivate": {
+        "prefix": "ZO_GamepadVerticalParametricScrollListSubList:Deactivate",
+        "body": [
+            "ZO_GamepadVerticalParametricScrollListSubList:Deactivate()"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_SharedGamepadEntry_OnInitialized": {
+        "prefix": "ZO_SharedGamepadEntry_OnInitialized",
+        "body": [
+            "ZO_SharedGamepadEntry_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_PregameGamepadEntry_OnInitialized": {
+        "prefix": "ZO_PregameGamepadEntry_OnInitialized",
+        "body": [
+            "ZO_PregameGamepadEntry_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_CraftingGamepadEntryTraits_OnInitialized": {
+        "prefix": "ZO_CraftingGamepadEntryTraits_OnInitialized",
+        "body": [
+            "ZO_CraftingGamepadEntryTraits_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_CraftingGamepadEntry_OnInitialized": {
+        "prefix": "ZO_CraftingGamepadEntry_OnInitialized",
+        "body": [
+            "ZO_CraftingGamepadEntry_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_SkillsGamepadEntry_OnInitialized": {
+        "prefix": "ZO_SkillsGamepadEntry_OnInitialized",
+        "body": [
+            "ZO_SkillsGamepadEntry_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_CharacterGamepadEntry_OnInitialized": {
+        "prefix": "ZO_CharacterGamepadEntry_OnInitialized",
+        "body": [
+            "ZO_CharacterGamepadEntry_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_SharedGamepadEntry_Cooldown": {
+        "prefix": "ZO_SharedGamepadEntry_Cooldown",
+        "body": [
+            "ZO_SharedGamepadEntry_Cooldown(${1:control}, ${2:remaining}, ${3:duration}, ${4:cooldownType}, ${5:timeType}, ${6:useLeadingEdge}, ${7:alpha}, ${8:desaturation}, ${9:preservePreviousCooldown})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_SharedGamepadEntryIconColorize": {
+        "prefix": "ZO_SharedGamepadEntryIconColorize",
+        "body": [
+            "ZO_SharedGamepadEntryIconColorize(${1:icon}, ${2:data}, ${3:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadGuildHubRow_OnInitialized": {
+        "prefix": "ZO_GamepadGuildHubRow_OnInitialized",
+        "body": [
+            "ZO_GamepadGuildHubRow_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_SharedGamepadEntry_OnSetup": {
+        "prefix": "ZO_SharedGamepadEntry_OnSetup",
+        "body": [
+            "ZO_SharedGamepadEntry_OnSetup(${1:control}, ${2:data}, ${3:selected}, ${4:reselectingDuringRebuild}, ${5:enabled}, ${6:active})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "SetDefaultColorOnLabel": {
+        "prefix": "SetDefaultColorOnLabel",
+        "body": [
+            "SetDefaultColorOnLabel(${1:label}, ${2:selected})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadMenuEntryTemplate_GetAlpha": {
+        "prefix": "ZO_GamepadMenuEntryTemplate_GetAlpha",
+        "body": [
+            "ZO_GamepadMenuEntryTemplate_GetAlpha(${1:selected}, ${2:disabled})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "SharedGamepadEntryTemplateSetup": {
+        "prefix": "SharedGamepadEntryTemplateSetup",
+        "body": [
+            "SharedGamepadEntryTemplateSetup(${1:control}, ${2:text}, ${3:pressedTexture}, ${4:normalTexture}, ${5:highlightTexture}, ${6:selected}, ${7:activated}, ${8:stackCount})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadMenuEntryTemplate_Setup": {
+        "prefix": "ZO_GamepadMenuEntryTemplate_Setup",
+        "body": [
+            "ZO_GamepadMenuEntryTemplate_Setup(${1:control}, ${2:text}, ${3:pressedTexture}, ${4:normalTexture}, ${5:highlightTexture}, ${6:selected}, ${7:activated}, ${8:stackCount})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadOnDefaultActivatedChanged": {
+        "prefix": "ZO_GamepadOnDefaultActivatedChanged",
+        "body": [
+            "ZO_GamepadOnDefaultActivatedChanged(${1:control}, ${2:activated})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadOnDefaultScrollListActivatedChanged": {
+        "prefix": "ZO_GamepadOnDefaultScrollListActivatedChanged",
+        "body": [
+            "ZO_GamepadOnDefaultScrollListActivatedChanged(${1:list}, ${2:activated})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadCheckBoxTemplate_OnInitialized": {
+        "prefix": "ZO_GamepadCheckBoxTemplate_OnInitialized",
+        "body": [
+            "ZO_GamepadCheckBoxTemplate_OnInitialized(${1:control}, ${2:offsetX})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadCheckBoxTemplate_Setup": {
+        "prefix": "ZO_GamepadCheckBoxTemplate_Setup",
+        "body": [
+            "ZO_GamepadCheckBoxTemplate_Setup(${1:control}, ${2:data}, ${3:selected}, ${4:selectedDuringRebuild}, ${5:enabled}, ${6:activated})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadCheckBoxListEntryTemplate_Setup": {
+        "prefix": "ZO_GamepadCheckBoxListEntryTemplate_Setup",
+        "body": [
+            "ZO_GamepadCheckBoxListEntryTemplate_Setup(${1:control}, ${2:data}, ${3:selected}, ${4:selectedDuringRebuild}, ${5:enabled}, ${6:activated})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadCheckBoxTemplate_OnClicked": {
+        "prefix": "ZO_GamepadCheckBoxTemplate_OnClicked",
+        "body": [
+            "ZO_GamepadCheckBoxTemplate_OnClicked(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadCheckBoxTemplate_IsChecked": {
+        "prefix": "ZO_GamepadCheckBoxTemplate_IsChecked",
+        "body": [
+            "ZO_GamepadCheckBoxTemplate_IsChecked(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadMenuHeaderTemplate_OnInitialized": {
+        "prefix": "ZO_GamepadMenuHeaderTemplate_OnInitialized",
+        "body": [
+            "ZO_GamepadMenuHeaderTemplate_OnInitialized(${1:control})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadMenuHeaderTemplate_Setup": {
+        "prefix": "ZO_GamepadMenuHeaderTemplate_Setup",
+        "body": [
+            "ZO_GamepadMenuHeaderTemplate_Setup(${1:control}, ${2:data}, ${3:selected}, ${4:selectedDuringRebuild}, ${5:enabled}, ${6:activated})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarTemplate_OnInitialized": {
+        "prefix": "ZO_GamepadTabBarTemplate_OnInitialized",
+        "body": [
+            "ZO_GamepadTabBarTemplate_OnInitialized(${1:self})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadTabBarTemplate_Setup": {
+        "prefix": "ZO_GamepadTabBarTemplate_Setup",
+        "body": [
+            "ZO_GamepadTabBarTemplate_Setup(${1:control}, ${2:data}, ${3:selected}, ${4:selectedDuringRebuild}, ${5:enabled}, ${6:activated})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPipCreator:New": {
+        "prefix": "ZO_GamepadPipCreator:New",
+        "body": [
+            "ZO_GamepadPipCreator:New(${1:control}, ${2:drawLayer})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadPipCreator:RefreshPips": {
+        "prefix": "ZO_GamepadPipCreator:RefreshPips",
+        "body": [
+            "ZO_GamepadPipCreator:RefreshPips(${1:numPips}, ${2:activePipIndex})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GetPlatformTemplate": {
+        "prefix": "ZO_GetPlatformTemplate",
+        "body": [
+            "ZO_GetPlatformTemplate(${1:baseTemplate})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadDefaultHorizontalListEntrySetup": {
+        "prefix": "ZO_GamepadDefaultHorizontalListEntrySetup",
+        "body": [
+            "ZO_GamepadDefaultHorizontalListEntrySetup(${1:control}, ${2:data}, ${3:selected}, ${4:reselectingDuringRebuild}, ${5:enabled}, ${6:selectedFromParent})"
+        ],
+        "description": "common\\gamepad"
+    },
+    "ZO_GamepadHorizontalListRow_Initialize": {
+        "prefix": "ZO_GamepadHorizontalListRow_Initialize",
+        "body": [
+            "ZO_GamepadHorizontalListRow_Initialize(${1:self}, ${2:setupFunction}, ${3:equalityFunction})"
+        ],
+        "description": "common\\gamepad"
+    }
+}

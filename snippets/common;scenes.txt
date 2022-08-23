@@ -1,0 +1,4 @@
+ZO_GamepadMenuSoundFragment:New()
+ZO_GamepadMenuSoundFragment:Show()
+ZO_GamepadMenuSoundFragment:Hide()
+ZO_CreateQuadrantConveyorFragment(control, alwaysAnimate)

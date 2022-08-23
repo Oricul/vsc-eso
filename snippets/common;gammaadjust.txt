@@ -1,0 +1,5 @@
+ZO_GammaAdjust_Initialize(self)
+ZO_GammaAdjust_ChangeGamma(delta)
+ZO_GammaAdjust_NeedsFirstSetup()
+ZO_GammaAdjustSlider_Gamepad_OnInitialized(slider)
+ZO_GammaAdjustSlider_Keyboard_OnInitialized(slider)
