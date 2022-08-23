@@ -1,3 +1,0 @@
-ZO_GamepadGrid_AnchorToNav(control, navLocation)
-ZO_GamepadGrid_GetNavAnchor(navLocation, anchorIndex)
-ZO_GamepadGrid_GetNavContainerAnchor(navLocation, anchorIndex)
