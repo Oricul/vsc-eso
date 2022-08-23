@@ -1,0 +1,198 @@
+{
+    "ZO_VoiceChatHUDLoadingScreenConsole_OnInitialize": {
+        "prefix": "ZO_VoiceChatHUDLoadingScreenConsole_OnInitialize",
+        "body": [
+            "ZO_VoiceChatHUDLoadingScreenConsole_OnInitialize(${1:control})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "ZO_VoiceChatHUDLoadingScreenConsole_OnUpdate": {
+        "prefix": "ZO_VoiceChatHUDLoadingScreenConsole_OnUpdate",
+        "body": [
+            "ZO_VoiceChatHUDLoadingScreenConsole_OnUpdate(${1:control})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Gamepad:InitializeAnimations": {
+        "prefix": "LoadingScreen_Gamepad:InitializeAnimations",
+        "body": [
+            "LoadingScreen_Gamepad:InitializeAnimations()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Gamepad:GetSystemName": {
+        "prefix": "LoadingScreen_Gamepad:GetSystemName",
+        "body": [
+            "LoadingScreen_Gamepad:GetSystemName()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Gamepad:OnLongLoadTime": {
+        "prefix": "LoadingScreen_Gamepad:OnLongLoadTime",
+        "body": [
+            "LoadingScreen_Gamepad:OnLongLoadTime(${1:event})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Gamepad:OnShown": {
+        "prefix": "LoadingScreen_Gamepad:OnShown",
+        "body": [
+            "LoadingScreen_Gamepad:OnShown()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Gamepad:OnHidden": {
+        "prefix": "LoadingScreen_Gamepad:OnHidden",
+        "body": [
+            "LoadingScreen_Gamepad:OnHidden()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Gamepad:IsPreferredScreen": {
+        "prefix": "LoadingScreen_Gamepad:IsPreferredScreen",
+        "body": [
+            "LoadingScreen_Gamepad:IsPreferredScreen()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "ZO_InitGamepadLoadScreen": {
+        "prefix": "ZO_InitGamepadLoadScreen",
+        "body": [
+            "ZO_InitGamepadLoadScreen(${1:control})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Keyboard:InitializeAnimations": {
+        "prefix": "LoadingScreen_Keyboard:InitializeAnimations",
+        "body": [
+            "LoadingScreen_Keyboard:InitializeAnimations()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Keyboard:IsPreferredScreen": {
+        "prefix": "LoadingScreen_Keyboard:IsPreferredScreen",
+        "body": [
+            "LoadingScreen_Keyboard:IsPreferredScreen()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Keyboard:GetSystemName": {
+        "prefix": "LoadingScreen_Keyboard:GetSystemName",
+        "body": [
+            "LoadingScreen_Keyboard:GetSystemName()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "ZO_InitKeyboardLoadScreen": {
+        "prefix": "ZO_InitKeyboardLoadScreen",
+        "body": [
+            "ZO_InitKeyboardLoadScreen(${1:control})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "GetInstanceDisplayTypeIcon": {
+        "prefix": "GetInstanceDisplayTypeIcon",
+        "body": [
+            "GetInstanceDisplayTypeIcon(${1:instanceType})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:Initialize": {
+        "prefix": "LoadingScreen_Base:Initialize",
+        "body": [
+            "LoadingScreen_Base:Initialize()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base_CanHide": {
+        "prefix": "LoadingScreen_Base_CanHide",
+        "body": [
+            "LoadingScreen_Base_CanHide()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:SizeLoadingTexture": {
+        "prefix": "LoadingScreen_Base:SizeLoadingTexture",
+        "body": [
+            "LoadingScreen_Base:SizeLoadingTexture()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:OnAreaLoadStarted": {
+        "prefix": "LoadingScreen_Base:OnAreaLoadStarted",
+        "body": [
+            "LoadingScreen_Base:OnAreaLoadStarted(${1:evt}, ${2:area}, ${3:instance}, ${4:zoneName}, ${5:zoneDescription}, ${6:loadingTexture}, ${7:instanceType})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:OnPrepareForJump": {
+        "prefix": "LoadingScreen_Base:OnPrepareForJump",
+        "body": [
+            "LoadingScreen_Base:OnPrepareForJump(${1:evt}, ${2:zoneName}, ${3:zoneDescription}, ${4:loadingTexture}, ${5:instanceType})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:HideLoadingScreen": {
+        "prefix": "LoadingScreen_Base:HideLoadingScreen",
+        "body": [
+            "LoadingScreen_Base:HideLoadingScreen()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:OnResumeFromSuspend": {
+        "prefix": "LoadingScreen_Base:OnResumeFromSuspend",
+        "body": [
+            "LoadingScreen_Base:OnResumeFromSuspend(${1:evt})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:QueueShow": {
+        "prefix": "LoadingScreen_Base:QueueShow",
+        "body": [
+            "LoadingScreen_Base:QueueShow(${1:...})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:Show": {
+        "prefix": "LoadingScreen_Base:Show",
+        "body": [
+            "LoadingScreen_Base:Show(${1:zoneName}, ${2:zoneDescription}, ${3:loadingTexture}, ${4:instanceType})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:Hide": {
+        "prefix": "LoadingScreen_Base:Hide",
+        "body": [
+            "LoadingScreen_Base:Hide()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:UpdateLoadingTip": {
+        "prefix": "LoadingScreen_Base:UpdateLoadingTip",
+        "body": [
+            "LoadingScreen_Base:UpdateLoadingTip(${1:delta})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:Update": {
+        "prefix": "LoadingScreen_Base:Update",
+        "body": [
+            "LoadingScreen_Base:Update()"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:OnZoneDescriptionNewUserAreaCreated": {
+        "prefix": "LoadingScreen_Base:OnZoneDescriptionNewUserAreaCreated",
+        "body": [
+            "LoadingScreen_Base:OnZoneDescriptionNewUserAreaCreated(${1:control}, ${2:areaData}, ${3:left}, ${4:right}, ${5:top}, ${6:bottom})"
+        ],
+        "description": "app\\loadingscreen"
+    },
+    "LoadingScreen_Base:SetZoneDescription": {
+        "prefix": "LoadingScreen_Base:SetZoneDescription",
+        "body": [
+            "LoadingScreen_Base:SetZoneDescription(${1:tip})"
+        ],
+        "description": "app\\loadingscreen"
+    }
+}

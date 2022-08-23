@@ -1,0 +1,9 @@
+{
+    "zo_mixin": {
+        "prefix": "zo_mixin",
+        "body": [
+            "zo_mixin(${1:object}, ${2:...})"
+        ],
+        "description": "app\\globals"
+    }
+}

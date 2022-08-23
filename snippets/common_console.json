@@ -1,0 +1,184 @@
+{
+    "ZO_AutoSaving_Console:New": {
+        "prefix": "ZO_AutoSaving_Console:New",
+        "body": [
+            "ZO_AutoSaving_Console:New(${1:...})"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_AutoSaving_Console:Initialize": {
+        "prefix": "ZO_AutoSaving_Console:Initialize",
+        "body": [
+            "ZO_AutoSaving_Console:Initialize(${1:control})"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_AutoSaving_Console:ShowAutoSaving": {
+        "prefix": "ZO_AutoSaving_Console:ShowAutoSaving",
+        "body": [
+            "ZO_AutoSaving_Console:ShowAutoSaving()"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_AutoSaving_Console:OnUpdate": {
+        "prefix": "ZO_AutoSaving_Console:OnUpdate",
+        "body": [
+            "ZO_AutoSaving_Console:OnUpdate(${1:currentFrameTimeSeconds})"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_AutoSaving_Console:LogSaveCompleted": {
+        "prefix": "ZO_AutoSaving_Console:LogSaveCompleted",
+        "body": [
+            "ZO_AutoSaving_Console:LogSaveCompleted()"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_AutoSaving_Console:HideAutoSaving": {
+        "prefix": "ZO_AutoSaving_Console:HideAutoSaving",
+        "body": [
+            "ZO_AutoSaving_Console:HideAutoSaving()"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_AutoSaving_Console:HideAutoSavingAnimComplete": {
+        "prefix": "ZO_AutoSaving_Console:HideAutoSavingAnimComplete",
+        "body": [
+            "ZO_AutoSaving_Console:HideAutoSavingAnimComplete(${1:timeline}, ${2:completed})"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_AutoSaving_Console:MarkDirty": {
+        "prefix": "ZO_AutoSaving_Console:MarkDirty",
+        "body": [
+            "ZO_AutoSaving_Console:MarkDirty()"
+        ],
+        "description": "common\\console"
+    },
+    "ZO_InitializeAutoSaving_Console": {
+        "prefix": "ZO_InitializeAutoSaving_Console",
+        "body": [
+            "ZO_InitializeAutoSaving_Console(${1:control})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:New": {
+        "prefix": "PlayerConsoleInfoRequestManager:New",
+        "body": [
+            "PlayerConsoleInfoRequestManager:New(${1:...})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:Initialize": {
+        "prefix": "PlayerConsoleInfoRequestManager:Initialize",
+        "body": [
+            "PlayerConsoleInfoRequestManager:Initialize()"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestId": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestId",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestId(${1:idRequestType}, ${2:block}, ${3:callback}, ${4:...})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestIdFromAccountId": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestIdFromAccountId",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestIdFromAccountId(${1:accountId}, ${2:block}, ${3:callback})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestIdFromCharacterName": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestIdFromCharacterName",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestIdFromCharacterName(${1:characterName}, ${2:block}, ${3:callback})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestIdFromDisplayName": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestIdFromDisplayName",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestIdFromDisplayName(${1:displayName}, ${2:block}, ${3:callback})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestIdFromDisplayNameOrFallbackType": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestIdFromDisplayNameOrFallbackType",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestIdFromDisplayNameOrFallbackType(${1:displayName}, ${2:block}, ${3:fallbackRequestType}, ${4:callback}, ${5:...})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestIdFromUserListDialog": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestIdFromUserListDialog",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestIdFromUserListDialog(${1:callback}, ${2:titleText}, ${3:includeOnlineFriends}, ${4:includeOfflineFriends})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestTextValidation": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestTextValidation",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestTextValidation(${1:text}, ${2:callback})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:RequestNameValidation": {
+        "prefix": "PlayerConsoleInfoRequestManager:RequestNameValidation",
+        "body": [
+            "PlayerConsoleInfoRequestManager:RequestNameValidation(${1:name}, ${2:callback})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:AddPendingRequest": {
+        "prefix": "PlayerConsoleInfoRequestManager:AddPendingRequest",
+        "body": [
+            "PlayerConsoleInfoRequestManager:AddPendingRequest(${1:requestType}, ${2:data}, ${3:block}, ${4:callback})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:FindPendingRequestByField": {
+        "prefix": "PlayerConsoleInfoRequestManager:FindPendingRequestByField",
+        "body": [
+            "PlayerConsoleInfoRequestManager:FindPendingRequestByField(${1:fieldName}, ${2:fieldValue}, ${3:requestType})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:OnUpdate": {
+        "prefix": "PlayerConsoleInfoRequestManager:OnUpdate",
+        "body": [
+            "PlayerConsoleInfoRequestManager:OnUpdate()"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:CheckCloseBlockingDialog": {
+        "prefix": "PlayerConsoleInfoRequestManager:CheckCloseBlockingDialog",
+        "body": [
+            "PlayerConsoleInfoRequestManager:CheckCloseBlockingDialog(${1:pendingRequest})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:OnConsoleInfoReceived": {
+        "prefix": "PlayerConsoleInfoRequestManager:OnConsoleInfoReceived",
+        "body": [
+            "PlayerConsoleInfoRequestManager:OnConsoleInfoReceived(${1:requestKey}, ${2:displayName}, ${3:consoleId}, ${4:success})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:OnSelectFromUserListDialogResult": {
+        "prefix": "PlayerConsoleInfoRequestManager:OnSelectFromUserListDialogResult",
+        "body": [
+            "PlayerConsoleInfoRequestManager:OnSelectFromUserListDialogResult(${1:hasResult}, ${2:displayName}, ${3:consoleId})"
+        ],
+        "description": "common\\console"
+    },
+    "PlayerConsoleInfoRequestManager:OnConsoleTextValidationResult": {
+        "prefix": "PlayerConsoleInfoRequestManager:OnConsoleTextValidationResult",
+        "body": [
+            "PlayerConsoleInfoRequestManager:OnConsoleTextValidationResult(${1:key}, ${2:valid})"
+        ],
+        "description": "common\\console"
+    }
+}
