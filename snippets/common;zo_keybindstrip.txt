@@ -1,3 +1,0 @@
-ZO_KeybindStrip_HandleKeybindDown(keybind)
-ZO_KeybindStrip_HandleKeybindUp(keybind)
-ZO_KeybindStrip_OnInitialized(control)
