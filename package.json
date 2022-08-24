@@ -28,6 +28,426 @@
       {
         "language": "lua",
         "path": "./snippets/common;gamepad.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;zo_playerinventoryfooter.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;zo_options.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;zo_keybindstrip.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;zo_keybindings.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;zo_gamemenu.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;zo_addonmanager.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;scenes.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;optionspanels.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;globals.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;gammaadjust.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;gamepadgrid.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/common;zo_uierrors.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;achievements.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;actionbar.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;activecombattips.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;addoncompatibilityaliases.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;alerttext.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;banking.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;cadwell.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;campaign.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingame;centerscreenannounce.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;championperks.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;characterwindow.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;chatsystem.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;collections.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;compass.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;console.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;contacts.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;contextual.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;crafting.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;currency.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;death.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;deathrecap.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;dyeing.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;enchanting.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;fence.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;fishing.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;gamemenu_ingame.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;gamepad.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;globals.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;group.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;guild.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;guildkiosk.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;help.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;housingeditor.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;hud.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;instancekickwarning.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;interactwindow.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;inventory.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;journalprogresssummary.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;keep.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;keybindings.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;leaderboards.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;lfg.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;lockpick.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;lorelibrary.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;lorereader.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;mail.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;mainmenu.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;map.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;namechange.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;notificationicons.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;objectivecapturemeter.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;optionspanels.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;performance.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;playerattributebars.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;playeremote.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;playerprogressbar.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;playertoplayer.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;questtoolmonitor.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;quickchat.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;quickslot.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;ram.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;repair.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;resourcewarner.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;reticle.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;scenes.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;scriptedworldevents.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;sharedinformationarea.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;siegebar.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;skills.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;slashcommands.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;soulgemitemcharger.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;spamwarning.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;stable.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;stats.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;storewindow.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;stuck.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;subtitles.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;synergy.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;tooltip.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;tradewindow.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;tradinghouse.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;treasuremap.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;trialaccount.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;tutorial.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;uicombatoverlay.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;unitattributevisualizer.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;unitframes.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;utility.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;voicechat.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;zo_currencyinput.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;zo_loot.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;zo_quest.json"
+      },
+			{
+        "language": "lua",
+        "path": "./snippets/ingame;zo_tooltip.json"
       }
     ]
   },
