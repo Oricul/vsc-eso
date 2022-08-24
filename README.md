@@ -1,4 +1,4 @@
-# ![vsc-eso logo](https://raw.githubusercontent.com/Oricul/vsc-eso/main/images/eso_lua_logo.png LUA logo wrapped in ESO dragons)vsc-eso
+# ![vsc-eso logo](https://raw.githubusercontent.com/Oricul/vsc-eso/main/images/eso_lua_logo.png "LUA logo wrapped in ESO dragons")vsc-eso
 
 Elder Scrolls Online LUA snippets for Visual Studio Code.
 
