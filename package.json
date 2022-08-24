@@ -448,7 +448,231 @@
 			{
         "language": "lua",
         "path": "./snippets/ingame;zo_tooltip.json"
-      }
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/ingamelocalization.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/internalingame;globals.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/internalingame;market.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/internalingame;marketannouncement.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/internalingame;scenes.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/internalingame;sounds.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/internalingamelocalization.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;globals.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;refresh.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;utility.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_bulletlist.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_buttontabbar.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_colorpicker.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_colorswatchpicker.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_combobox.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_contextmenus.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_crossfadebg.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_dialog.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_directionalinput.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_focus.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_gamepadslider.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_hiddenreasons.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_horizontalscrolllist.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_keybindbutton.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_keybindstrip.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_lerpinterpolator.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_matrix.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_menubar.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_mouseinputgroup.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_movementcontroller.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_multiicon.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_pagedlist.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/libraries;zo_parametricscrolllist.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_pixelunits.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_platformstyle.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_radialmenu.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_recentmessages.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_savingeditbox.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_scene.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_scenegraph.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_scenenodering.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_smoothslider.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_sortableparametriclist.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_sortfilterlist.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_sortfilterlistbase.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_sortheadergroup.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_spinner.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_stringsearch.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_systems.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_templates.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_timelockeddialog.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_timerbar.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_tooltip.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_tree.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_trianglepicker.json"
+			},
+			{
+        "language": "lua",
+        "path": "./snippets/libraries;zo_validnameinstructions.json"
+}
     ]
   },
   "repository": {
