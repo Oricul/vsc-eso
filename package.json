@@ -1,10 +1,16 @@
 {
   "name": "vsc-eso",
+  "displayName": "ESO Snippets",
   "description": "Elder Scrolls Online (ESO) LUA Support For Visual Studio Code",
-  "version": "1.0.0",
+  "keywords": ["eso","esoui"],
+  "version": "0.1.0",
   "publisher": "Origami",
   "icon": "images/eso_lua_logo.png",
   "license": "MIT",
+  "homepage": "https://github.com/Oricul/vsc-eso",
+  "sponsor": {
+    "url": "https://github.com/sponsors/Oricul"
+  },
   "engines": {
     "vscode": "^1.70.2"
   },
@@ -678,5 +684,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Oricul/vsc-eso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oricul/vsc-eso/issues"
   }
 }
